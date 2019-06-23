@@ -9,7 +9,7 @@ class Square {
 
     draw(ctx, x, y, ancho, altura, color) {
         ctx.fillStyle = color;
-        ctx.fillRect(x + 2.5, y + 2.5, ancho, altura);
+        ctx.fillRect(x , y , ancho, altura);
     }
 }
 
